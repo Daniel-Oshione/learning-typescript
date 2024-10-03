@@ -1,23 +1,23 @@
-"import _ from 'lodash';";
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+`import _ from 'lodash';`;
 function hello() {
-    return "world";
+    return `world`;
 }
-var humanA = {
+const humanA = {
     first: 'Dan',
     last: 'Might',
     age: 30
 };
-var humanB = {
+const humanB = {
     first: 'Chick',
     last: 'Might',
     age: 25
 };
 console.log(humanA.age);
 // array stongtyping
-var arr = [];
+const arr = [];
 arr.push(1);
 arr.push(5);
-arr.push(true);
+arr.push(3);
 console.log(arr);
+export {};
+//types uses & to join objects, interface uses extends to join objects

@@ -34,3 +34,6 @@ arr.push(5);
 arr.push(3);
 
 console.log(arr);
+
+
+//types uses & to join objects, interface uses extends to join objects
