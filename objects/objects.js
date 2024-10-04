@@ -47,9 +47,3 @@ console.log(Product);
 //     id: 1,
 //     city: "Uyo"
 // }
-function calcAge(currentYear, birthYear) {
-    var getYear = new Date().getFullYear;
-    currentYear = getYear;
-    return "Helo I am ".concat(currentYear - birthYear, "'s old");
-}
-console.log(calcAge(2024, 2005));
