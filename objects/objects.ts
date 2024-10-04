@@ -47,16 +47,16 @@ console.log(Product);
 
 // strong typing with types
 
-type productItems = {
-    id: number;
-    name: string;
-    age: number;
-    city: string;
-}
+// type productItems = {
+//     id: number;
+//     name: string;
+//     age: number;
+//     city: string;
+// }
 
-const userDetails: productItems = {
-    name: "Daniel",
-    age: 24,
-    id: 1,
-    city: "Uyo"
-}
+// const userDetails: productItems = {
+//     name: "Daniel",
+//     age: 24,
+//     id: 1,
+//     city: "Uyo"
+// }

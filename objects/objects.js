@@ -6,9 +6,50 @@ var Product = {
     isAvailable: true
 };
 console.log(Product);
-var userDetails = {
-    name: "Daniel",
-    age: 24,
-    id: 1,
-    city: "Uyo"
-};
+//using interfaces
+// interface User{
+//     name: string,
+// }
+// interface User{
+//     age: number
+// }
+// const userName: User = {
+//     name: "Favour",
+//     age: 20  
+// };
+// console.log(userName);
+//using tyoes
+// type Address = {
+//     street: string;
+//     city: string;
+// };
+// type User = {
+//     name: string;
+//     age: number;
+// } & Address;
+// const userDetails: User = {
+//     name: "Favour",
+//     age: 31,
+//     street: "shelter",
+//     city: "Lagos",
+// };
+// console.log(userDetails);
+// strong typing with types
+// type productItems = {
+//     id: number;
+//     name: string;
+//     age: number;
+//     city: string;
+// }
+// const userDetails: productItems = {
+//     name: "Daniel",
+//     age: 24,
+//     id: 1,
+//     city: "Uyo"
+// }
+function calcAge(currentYear, birthYear) {
+    var getYear = new Date().getFullYear;
+    currentYear = getYear;
+    return "Helo I am ".concat(currentYear - birthYear, "'s old");
+}
+console.log(calcAge(2024, 2005));
