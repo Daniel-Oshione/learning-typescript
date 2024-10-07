@@ -1,4 +1,3 @@
-import { first } from "lodash";
 
 `import _ from 'lodash';`
 
